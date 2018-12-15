@@ -1,0 +1,112 @@
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[10-Jul-2018 22:31:35 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:53:51 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:50 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/pdo.so: undefined symbol: zend_objects_store_add_ref in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /opt/php52/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20160303
+These options need to match
+ in Unknown on line 0
+[11-Jul-2018 03:56:55 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0

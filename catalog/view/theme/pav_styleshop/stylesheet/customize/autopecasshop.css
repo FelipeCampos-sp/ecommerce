@@ -1,0 +1,47 @@
+
+/* customize for 
+				#header-main,#header-main h1,#header-main h2,#header-main h3,#header-main h4,#header-main h5,#header-main h6,.support .box-services
+			 */ 
+
+				#header-main,#header-main h1,#header-main h2,#header-main h3,#header-main h4,#header-main h5,#header-main h6,.support .box-services
+			 { 
+color:#f43838 
+} 
+
+/* customize for .support .box-services span */ 
+.support .box-services span { 
+border-color:#f43838 
+} 
+
+/* customize for .support .box-services span i */ 
+.support .box-services span i { 
+color:#f43838 
+} 
+
+/* customize for #pav-verticalmenu .box-heading */ 
+#pav-verticalmenu .box-heading { 
+background-color:#f43838 
+} 
+
+/* customize for 
+				.shapes.round
+			 */ 
+
+				.shapes.round
+			 { 
+background-color:#f43838 
+} 
+
+/* customize for 
+				.btn.btn-shopping-cart
+			 */ 
+
+				.btn.btn-shopping-cart
+			 { 
+background-color:#f43838 
+} 
+
+/* customize for .product-block .pav-colorbox,.product-block .product-zoom */ 
+.product-block .pav-colorbox,.product-block .product-zoom { 
+background-color:#f43838 
+} 

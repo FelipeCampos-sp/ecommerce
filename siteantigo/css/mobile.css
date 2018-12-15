@@ -1,0 +1,1319 @@
+/*LARGURA PARA DISPOSITIVOS HD*/
+
+@media screen and (max-width:1200px){
+      .content .blog{
+        
+        flex-direction:column;
+    }
+    .sugestao{
+        width:100%;
+        flex-direction:column;
+    }
+    /*Formatação Nav mobile*/
+label
+    {
+        display:block;
+    }
+
+
+nav .content
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 51vh;
+    margin: 0;
+    margin: 30px 0 0;
+}
+
+nav .submenu 
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav
+{
+    position:absolute;
+    top:120px;
+    left:0;
+    width:50%;
+    transform:translateX(-100%);
+    transition:all 1s;
+    z-index:99;
+}
+
+nav ul
+{
+    display:block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav ul li:hover ul 
+{
+    display:none;
+    position:static;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav a span
+{
+    position:absolute;
+    right:5px;
+}
+
+#btn-menu:checked ~ nav
+{
+    transform:translateX(0%);
+    background-color:#555;
+}
+nav ul ul
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav ul ul a
+{
+    padding:15px 40px;
+}
+
+nav ul li a
+{
+    color:#000;
+}
+
+.mobile.fa
+{
+    display: block;
+    position: absolute;
+    z-index:100;
+    top:50px;
+    color:white;
+    padding-left:10px;    
+}
+/*Fim da nav menu mobile*/
+
+.img-home
+{
+    width:100%;
+    height:auto;
+}
+
+
+.texto
+{
+    width:100%;
+    height:auto;
+    color:#555;
+    position:relative;
+    float:left;
+    font-size:20px;
+    padding: 20px 10px ;
+}
+.texto > h1 
+{
+    font-size:1em;
+    color:#888;
+    height:auto;
+    margin:0 auto;
+}
+
+.form-left
+{
+    width:100%;
+    float:left;
+    padding:15px;
+}
+
+.img-empresa
+    {
+        width:100%;
+        height:auto;
+    }
+
+.box-index{
+    flex-direction:column;
+}
+
+.box-index .box-meio
+{
+   flex-direction:column;
+   width:100%;
+}
+   
+     
+.swot
+{
+    flex-direction: column;
+}
+
+.swot .swot-box
+    {
+     flex-direction: column;
+     width: 100%;
+    }
+
+.box
+{
+    flex-direction:column;
+}
+
+.box .box-footer
+{
+    flex-direction:column;
+    width:100%;
+}
+
+.painel
+{
+    flex-direction:column;
+}
+.painel .painel-box
+{
+    flex-direction:column;
+    width:100%;
+}
+.img-painel
+{
+    width:50%;
+    height:auto;  
+}
+.img-armazem{
+    text-align:center;
+    height:auto;
+}
+
+}
+
+/*LARGURA PARA  DESKTOP*/
+@media screen and (max-width:1024px){
+    
+    .content .blog{
+        
+        flex-direction:column;
+    }
+    .sugestao{
+        width:100%;
+        flex-direction:column;
+    }
+
+
+/*Formatação Nav mobile*/
+label
+    {
+        display:block;
+    }
+
+
+nav .content
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 51vh;
+    margin: 0;
+    margin: 30px 0 0;
+}
+
+nav .submenu 
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav
+{
+    position:absolute;
+    top:120px;
+    left:0;
+    width:50%;
+    transform:translateX(-100%);
+    transition:all 1s;
+    z-index:99;
+}
+
+nav ul
+{
+    display:block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav ul li:hover ul 
+{
+    display:none;
+    position:static;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav a span
+{
+    position:absolute;
+    right:5px;
+}
+
+#btn-menu:checked ~ nav
+{
+    transform:translateX(0%);
+    background-color:#555;
+}
+nav ul ul
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav ul ul a
+{
+    padding:15px 40px;
+}
+
+nav ul li a
+{
+    color:#000;
+}
+
+.mobile.fa
+{
+    display: block;
+    position: absolute;
+    z-index:100;
+    top:50px;
+    color:white;
+    padding-left:10px;    
+}
+/*Fim da nav menu mobile*/
+
+.img-home
+{
+    width:100%;
+    height:auto;
+}
+
+
+.texto
+{
+    width:100%;
+    height:auto;
+    color:#555;
+    position:relative;
+    float:left;
+    font-size:20px;
+    padding: 20px 10px ;
+}
+.texto > h1 
+{
+    font-size:1em;
+    color:#888;
+    height:auto;
+    margin:0 auto;
+}
+
+.form-left
+{
+    width:100%;
+    float:left;
+    padding:15px;
+}
+
+.img-empresa
+{
+    width:100%;
+    height:auto;
+}
+
+.box-index{
+    flex-direction:column;
+}
+
+.box-index .box-meio{
+    flex-direction:column;
+    width:100%;
+}
+
+ 
+.swot
+{
+    flex-direction: column;
+}
+
+.swot .swot-box
+{
+    flex-direction: column;
+    width: 100%;
+}
+
+.box
+{
+  flex-direction:column;
+}
+
+.box .box-footer
+{
+flex-direction:column;
+width:100%;
+}
+
+.painel
+{
+    flex-direction:column;
+}
+.painel .painel-box
+{
+    flex-direction:column;
+    width:100%;
+}
+.img-painel
+{
+    width:50%;
+    height:auto;  
+}
+.img-armazem{
+    text-align:center;
+    height:auto;
+}
+ .nossos-servicos__box 
+    {
+        width: calc(50% - (5px * 2));
+    }
+
+}
+
+/*LARGURA PARA TABLET*/
+
+@media screen and (max-width:768px){
+   
+.box-index{
+    flex-direction:column;
+}
+
+.box-index .box-meio{
+    flex-direction:column;
+    width:100%;
+}
+
+/* formatação da pagina blog*/
+.content .blog{
+    
+    flex-direction:column;
+}
+.sugestao{
+    width:100%;
+    flex-direction:column;
+}
+/* fim da formatação da pagína blog*/
+
+/* formafação da nav mobile*/
+
+label
+    {
+      display:block;
+    }
+
+nav .content
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 51vh;
+    margin: 0;
+    margin: 30px 0 0;
+}
+
+nav .submenu 
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav
+{
+    position:absolute;
+    top:120px;
+    left:0;
+    width:50%;
+    transform:translateX(-100%);
+    transition:all 1s;
+    z-index:99;
+}
+
+nav ul
+{
+    display:block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav ul li:hover ul 
+{
+    display:none;
+    position:static;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+nav a span
+{
+    position:absolute;
+    right:5px;
+}
+
+#btn-menu:checked ~ nav
+{
+    transform:translateX(0%);
+    background-color:#555;
+}
+nav ul ul
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav ul ul a
+{
+    padding:15px 40px;
+}
+
+nav ul li a
+{
+    color:#000;
+}
+
+.mobile.fa
+{
+    display: block;
+    position: absolute;
+    z-index:100;
+    top:50px;
+    color:white;
+    padding-left:10px;    
+}
+/* fim da formatação nav mobile*/
+
+.img-home
+{
+    width:100%;
+    height:auto;
+}
+.form-left
+{
+  width:100%;
+  float:left;
+  padding:15px;
+}
+.img-empresa
+{
+    width:100%;
+    height:auto;
+}
+
+/*Inicio da formatação empresa*/
+.swot
+{
+    flex-direction: column;
+}
+
+.swot .swot-box
+{
+    flex-direction: column;
+    width: 100%;
+}
+/*Fim da formatação empresa*/
+
+
+/* Formatação do footer */
+.box
+{
+    flex-direction:column;
+}
+.box .box-footer
+{
+    flex-direction:column;
+    width:100%;
+}
+/*Fim da formatação do footer*/
+
+/*Inicio da formatação equipamento*/
+.painel
+{
+  flex-direction:column;
+}
+.painel .painel-box
+{
+  flex-direction:column;
+  width:100%;
+}
+
+/*Fim da formataçao equipamento*/
+
+
+/*Aqui paginá ambiente*/
+.img-ambiente
+{
+  width:100%;
+  height:auto;
+}
+
+.text-item.cartilha
+{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item.cartilha img
+{
+    width:50%;
+    margin-bottom: 10px;
+
+}
+.recicle-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item .reciclagem-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item .rec{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+.text-item .import-rec-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+.text-item .separacao{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+
+.text-item .separacao-item .separacao-sub{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;   
+}
+.text-item .necessario{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;      
+}
+.text-item .necessario-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .necessario-item img{
+    width:50%;
+    height:auto;
+}
+
+.text-item .condominio-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .condominio-item img{
+    width:50%;
+    height:auto;
+}
+.text-item .lixo-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .caminhao-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+
+.text-item .coleta-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .mateiral-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+
+.text-item .metal-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .papel-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .plastico-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .vidro-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+
+.nossos-servicos__box 
+    {
+        width: calc(50% - (5px * 2));
+    }
+/*FIM DA PAGINA AMBIENTE*/
+
+}
+/*INCIO DA PAGÍNA ARMAZENAMENTO*/
+
+.content .box-principal{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.content .bloco-meio{
+    flex-direction:column;
+    padding:10px;
+}
+
+/*FIM DA PAGÍNA AMRMAZENAMENTO*/
+
+/*MEDIA SCREEN LARGURA PARA MOBILE DE 460PX*/
+
+@media screen and (max-width:460px){
+
+  .nossos-servicos__box 
+{
+    width: calc(100% - (5px * 2));
+}
+
+.box-index{
+    flex-direction:column;
+}
+
+.box-index .box-meio{
+    flex-direction:column;
+    width:100%;
+} 
+
+.logo{
+padding-top:25px;
+width:30%;
+height:auto;
+float:right;
+}
+
+header .redes img
+
+{
+ display:none;
+}
+
+.box
+
+{
+flex-direction:column;
+}
+.box .box-footer
+
+{
+flex-direction:column;
+width:100%;
+}
+
+
+.swot
+{
+    flex-direction: column;
+}
+
+.swot .swot-box
+{
+    flex-direction: column;
+    width: 93%;
+}
+
+.painel
+{
+  flex-direction:column;
+}
+.painel .painel-box
+{
+  flex-direction:column;
+  width:93%;
+}
+.img-painel
+{
+  width:80%;
+  height:auto;
+}
+.img-ambiente
+{
+  width:100%;
+  height:auto;
+}
+
+
+/* formafação da nav mobile*/
+
+label
+    {
+      display:block;
+    }
+
+nav .content
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 51vh;
+    margin: 0;
+    margin: 30px 0 0;
+}
+
+nav .submenu 
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav
+{
+    position:absolute;
+    top:120px;
+    left:0;
+    width:60%;
+    transform:translateX(-100%);
+    transition:all 1s;
+    z-index:99;
+}
+
+nav ul
+{
+    display:block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav ul li:hover ul 
+{
+    display:none;
+    position:static;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+nav a span
+{
+    position:absolute;
+    right:5px;
+}
+
+#btn-menu:checked ~ nav
+{
+    transform:translateX(0%);
+    background-color:#555;
+}
+nav ul ul
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav ul ul a
+{
+    padding:15px 40px;
+}
+
+nav ul li a
+{
+    color:#000;
+}
+
+.mobile.fa
+{
+    display: block;
+    position: absolute;
+    z-index:100;
+    top:50px;
+    color:white;
+    padding-left:10px;    
+}
+/* fim da formatação nav mobile*/
+
+.img-home
+{
+    width:100%;
+    height:auto;
+}
+.location
+{
+    width:350px;
+    height:auto;
+}
+
+/*formulario contato mobile*/
+
+.form_left,
+.form_right
+{
+    float: left;
+    width: 100%;
+}
+.img-empresa
+{
+    width:100%;
+    height:auto;
+}
+
+/*AQUI PAGINA AMBIENTE*/
+
+.text-item.cartilha
+{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item.cartilha img
+{
+    width:50%;
+    margin-bottom: 10px;
+
+}
+.recicle-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item .reciclagem-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item .rec{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+.text-item .import-rec-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+.text-item .separacao{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+
+.text-item .separacao-item .separacao-sub{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;   
+}
+.text-item .necessario{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;      
+}
+.text-item .necessario-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .necessario-item img{
+    width:50%;
+    height:auto;
+}
+
+.text-item .condominio-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .condominio-item img{
+    width:50%;
+    height:auto;
+}
+.text-item .lixo-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .caminhao-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+
+.text-item .coleta-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .mateiral-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+
+.text-item .metal-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .papel-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .plastico-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .vidro-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+/*FIM DA PAGINA AMBIENTE*/
+
+
+@media screen and (max-width:320px){
+   
+     
+    
+
+.box-meio-item{
+  width:100%;
+}
+
+
+.logo{
+float:right;
+}
+
+header .redes img{
+ display:none;
+}
+.box
+{
+flex-direction:column;
+}
+.box .box-footer
+{
+  flex-direction:column;
+  width:100%;
+}
+.swot
+{
+    flex-direction: column;
+}
+
+.swot .swot-box
+{
+    flex-direction: column;
+    width: 93%;
+}
+
+.painel
+{
+  flex-direction:column;
+}
+.painel .painel-box
+{
+  flex-direction:column;
+  width:93%;
+}
+.img-painel
+{
+  width:80%;
+  height:auto;
+}
+.img-ambiente
+{
+  width:100%;
+  height:auto;
+}
+
+/* formafação da nav mobile*/
+
+label
+    {
+      display:block;
+    }
+
+nav .content
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 51vh;
+    margin: 0;
+    margin: 30px 0 0;
+}
+
+nav .submenu 
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav
+{
+    position:absolute;
+    top:120px;
+    left:0;
+    width:60%;
+    transform:translateX(-100%);
+    transition:all 1s;
+    z-index:99;
+}
+
+nav ul
+{
+    display:block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+nav ul li:hover ul 
+{
+    display:none;
+    position:static;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+nav a span
+{
+    position:absolute;
+    right:5px;
+}
+
+#btn-menu:checked ~ nav
+{
+    transform:translateX(0%);
+    background-color:#555;
+}
+nav ul ul
+{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav ul ul a
+{
+    padding:15px 40px;
+}
+
+nav ul li a
+{
+    color:#000;
+}
+
+.mobile.fa
+{
+    display: block;
+    position: absolute;
+    z-index:100;
+    top:50px;
+    color:white;
+    padding-left:10px;    
+}
+/* fim da formatação nav mobile*/
+
+
+.img-home
+{
+    width:100%;
+    height:auto;
+}
+.location
+{
+    width:350px;
+    height:auto;
+}
+
+/*formulario contato mobile*/
+
+.form_left,
+.form_right
+{
+    float: left;
+    width: 100%;
+}
+.img-empresa
+{
+    width:100%;
+    height:auto;
+}
+
+/*AQUI PAGINA AMBIENTE*/
+
+.text-item.cartilha
+{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item.cartilha img
+{
+    width:50%;
+    margin-bottom: 10px;
+
+}
+.recicle-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item .reciclagem-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text-item .rec{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items:center;
+}
+.text-item .import-rec-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+.text-item .separacao{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+
+.text-item .separacao-item .separacao-sub{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;   
+}
+.text-item .necessario{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;      
+}
+.text-item .necessario-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .necessario-item img{
+    width:50%;
+    height:auto;
+}
+
+.text-item .condominio-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .condominio-item img{
+    width:50%;
+    height:auto;
+}
+.text-item .lixo-item{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+.text-item .caminhao-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+
+.text-item .coleta-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .mateiral-item{
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;
+}
+
+.text-item .metal-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .papel-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .plastico-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+.text-item .vidro-item {
+   -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    align-items:center;   
+}
+/*FIM DA PAGINA AMBIENTE*/
+
+}
+
+/*BOXES DA PAGINA INDEX*/
+@media screen and (max-width:900px) {
+    .nossos-servicos__box 
+    {
+        margin: 10px 5px;
+        width: calc(50% - (5px * 2));
+    }
+}
+
+@media screen and (max-width:500px) {
+    .nossos-servicos__box 
+    {
+        width: calc(100% - (5px * 2));
+    }
+}
+/*FIM DAS BOXES DA PAGÍNA INDEX*/
+

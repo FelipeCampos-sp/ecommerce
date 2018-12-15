@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+<name>PagSeguro Transaparente R2S</name>
+<version>1.0</version>
+<author>R2S</author>
+<code>xml-pagseguro-header-r2s</code>
+<description></description>
+
+<file path="catalog/controller/common/rodapecompraexpress.php">
+<operation>
+<notes></notes>
+<search index="" regex="false" trim="false"><![CDATA[$this->load->language('common/footer');]]></search>
+<add offset="0" trim="false" position="after"><![CDATA[
+//pagseguro transparente
+$data['modo_pagseguro'] = ($this->config->get('pagseguror2s_modo'))?'':'sandbox.';
+$data['status_pagseguro'] = $this->config->get('pagseguror2s_status');
+]]></add>
+</operation>
+</file>
+
+<file path="catalog/controller/common/footer.php">
+<operation>
+<notes></notes>
+<search index="" regex="false" trim="false"><![CDATA[$this->load->language('common/footer');]]></search>
+<add offset="0" trim="false" position="after"><![CDATA[
+//pagseguro transparente
+$data['modo_pagseguro'] = ($this->config->get('pagseguror2s_modo'))?'':'sandbox.';
+$data['status_pagseguro'] = $this->config->get('pagseguror2s_status');
+]]></add>
+</operation>
+</file>
+
+<file path="catalog/view/theme/*/template/common/footer.tpl">
+<operation>
+<notes></notes>
+<search index="" regex="false" trim="false"><![CDATA[</body>]]></search>
+<add offset="0" trim="false" position="before"><![CDATA[
+<?php if(isset($status_pagseguro) && $status_pagseguro==true){ ?>
+<script src="https://stc.<?php echo $modo_pagseguro;?>pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js" type="text/javascript"></script>
+<?php } ?>
+]]></add>
+</operation>
+</file>
+
+<file path="catalog/view/theme/*/template/compraexpress/rodapecompraexpress.tpl">
+<operation>
+<notes></notes>
+<search index="" regex="false" trim="false"><![CDATA[</body>]]></search>
+<add offset="0" trim="false" position="before"><![CDATA[
+<?php if(isset($status_pagseguro) && $status_pagseguro==true){ ?>
+<script src="https://stc.<?php echo $modo_pagseguro;?>pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js" type="text/javascript"></script>
+<?php } ?>
+]]></add>
+</operation>
+</file>
+<file path="admin/controller/extension/payment.php">
+<operation>
+<notes></notes>
+<search index="" regex="false" trim="false"><![CDATA[$this->model_extension_extension->uninstall('payment', $value);]]></search>
+<add offset="0" trim="false" position="replace"><![CDATA[
+//removido
+]]></add>
+</operation>
+</file>
+</modification>

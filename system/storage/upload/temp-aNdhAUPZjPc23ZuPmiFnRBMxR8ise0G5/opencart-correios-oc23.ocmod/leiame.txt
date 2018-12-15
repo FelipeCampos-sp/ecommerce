@@ -1,0 +1,58 @@
+Módulo Correios
+-----------------------------------------------
+
+Parâmetros usados pelos correios:
+--------------------------------
+
+Visite: http://www.correios.com.br/para-voce/precisa-de-ajuda/limites-de-dimensoes-e-de-peso
+
+Nota: Sedex Hoje tem peso e dimensões máximas menores que o mensionado pelo site dos Correios.
+	
+Instalação
+----------
+
+1 - Instale o módulo pelo admin (Extensões -> Instalador).
+
+2 - Configure as opções do módulo Correios (Extensões -> Fretes).
+
+Observações:
+-----------
+
+1) Os valores dos fretes obtidos diretamente do site dos Correios são estimativas que devem ser confirmados no ato da postagem.
+
+2) Para o correto funcionamento do módulo é essencial o cadastro correto das dimensões e pesos do produtos. 
+   As dimensões podem ser em milímetros ou centímetros. O peso em gramas ou kilogramas.
+
+3) Se as opções dos Correios não aparecerem consulte o log de erros do OpenCart para mais detalhes.
+
+4) Nem todo CEP é coberto por alguns serviços, como o Sedex 10. Neste caso, a opção de entrega deste serviço não aparecerá para o cliente.
+
+NOTA:
+-----------
+
+O módulo tenta minimizar uma das maiores deficiências do sistema dos Correios que é não oferecer o suporte ao cálculo de peso e volume de múltiplos volumes.
+
+Erros mais comuns
+-----------
+
+*** OPÇÃO DOS CORREIOS NÃO APARECE NA LOJA ***
+
+Várias razões pode contribuir para que os Correios não aparece nas opções de entrega:
+
+-> CEP de origem e destino incorretos 
+-> Dimensões e pesos dos produtos em branco ou fora dos padrões dos Correios
+-> Moeda (Real) não configurada na loja
+-> Problemas com o webservice dos Correios (neste caso não tem muito o que fazer a não ser esperar o serviço voltar a normalidade)
+
+----------------------------
+Dúvidas, sugestões e avisos sobre bugs acessem o tópico do módulo no fórum do OpenCart Brasil:
+http://forum.opencartbrasil.com.br/
+
+----------------------------
+Agradecimentos: 
+- Thalles Cardoso, periscuelo, Valdir Ferreira (vjcomputadores ), usuários do Fórum OpenCart Brasil que ajudaram a desenvolver e aperfeiçoar o módulo.
+- Manoel Vidal responsável por manter o site OpenCart Brasil - www.opencartbrasil.com.br
+- A todas as pessoas que enviaram sugestões para fazer o módulo cada vez mais completo.
+
+Mantenedor:
+Júlio César Campos Guimarães
